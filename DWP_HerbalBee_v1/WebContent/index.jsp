@@ -7,7 +7,7 @@
 <title>Juanito</title>
 </head>
 <body>
-<p>Wena wena juanito, jacobo puros yaaaa.....!!!! </p>
+<p>Wena wena juanito</p>
 
 </body>
 </html>

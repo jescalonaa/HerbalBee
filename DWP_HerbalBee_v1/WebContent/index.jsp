@@ -5,7 +5,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
@@ -36,7 +36,7 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link btn btn-warning" href="#" >Login Personal</a>
-                <a href="Login.jsp" class="btn btn-primary">Login</a>
+                
               </li>
             </ul>
     
@@ -47,7 +47,7 @@
       <div id="slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">          
-            <img src="IMG/portada2.jpg" class="img-fluid imgPortada" alt=""/>
+            <img src="img/portada2.jpg" class="img-fluid imgPortada" alt=""/>
             <div class="carousel-caption">
               <h1 class="d-none d-sm-block">HerbalBee</h1>
               <p>Miel 100% Natural , recolectada en bosques y quebradas de nuestra comuna. sin aditivos ni tratamientos que adulteren sus propiedades originales.</p>

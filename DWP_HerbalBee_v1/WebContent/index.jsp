@@ -113,3 +113,5 @@
           <div class="col-12 col-lg-6"></div>
         </div>
       </footer>
+
+      <%@ include file="template/footer.jsp"%>

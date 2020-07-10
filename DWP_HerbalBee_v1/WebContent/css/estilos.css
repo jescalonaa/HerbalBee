@@ -1,0 +1,19 @@
+.img-fluid{
+    max-width: 250%!important;
+    margin-left: -338px;
+}
+
+#lineaAmarilla{    
+    background-color: #FFD832;
+}
+
+.txtCmnm{
+	color:#5A3733;
+}
+.txtnp{
+	color: #EB6D2F;
+}
+
+footer{
+	background-color: #ffc107;
+}

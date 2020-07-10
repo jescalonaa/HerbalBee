@@ -24,7 +24,7 @@
             <a class="nav-link" href="#" >Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link btn btn-warning" href="Login.jsp" >Login Personal</a>            
+            <a class="nav-link btn btn-warning" href="login.jsp" >Login Personal</a>            
           </li>
         </ul>
 

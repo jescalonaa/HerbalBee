@@ -1,4 +1,4 @@
-package herbalbee.acciones;
+package herbalbee.action.servlet;
 
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import herbalbee.impl.UsuarioMgrImpl;
+import herbalbee.impl.interfaces.UsuarioMgrImpl;
 import herbalbee.objetos.Mensaje;
 import herbalbee.objetos.Usuario;
 
@@ -38,6 +38,7 @@ public class login extends HttpServlet {
 				
 				//instancia del objeto
 				Usuario user = new Usuario();
+				/*
 				user.setsEmail(sEmail);
 				user.setsPassword(sPass);
 				
@@ -61,7 +62,7 @@ public class login extends HttpServlet {
 					view = request.getRequestDispatcher("/Login.jsp");
 					view.forward(request, response);
 				}
-				
+				*/
 	}
 
 }

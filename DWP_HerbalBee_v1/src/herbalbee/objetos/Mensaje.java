@@ -5,6 +5,8 @@ public class Mensaje {
 	int iEstado = 1;
 	String sMensaje = "";
 	
+	public Mensaje() {};
+	
 	public int getiEstado() {
 		return iEstado;
 	}

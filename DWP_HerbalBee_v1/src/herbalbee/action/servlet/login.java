@@ -38,13 +38,14 @@ public class login extends HttpServlet {
 				
 				//instancia del objeto
 				Usuario user = new Usuario();
-				/*
+				
 				user.setsEmail(sEmail);
 				user.setsPassword(sPass);
 				
+				
 				//instancia a la clase mgrImpl
 				UsuarioMgrImpl mgrImpl = new UsuarioMgrImpl();
-				
+				/*
 				//llamado al metodo
 				 user = mgrImpl.exist(user);
 		 		if(user!= null) {

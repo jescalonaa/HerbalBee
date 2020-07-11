@@ -1,7 +1,11 @@
 package herbalbee.impl.interfaces;
-//import com.web.model.Mensaje;
-//import com.web.model.Usuario;
+
+import herbalbee.objetos.Mensaje;
+import herbalbee.objetos.Usuario;
 
 public interface UsuarioMgr {
+	
+	Mensaje validarUser(Usuario user);
+	Usuario exist(Usuario user);
 
 }

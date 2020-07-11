@@ -30,11 +30,8 @@ public class UsuarioMgrImpl implements UsuarioMgr{
 			{
 				usuario= dao.exist(user);
 			}
-		}
+		}		
 		
-		
-		
-		return null;
+		return usuario;
 	}
-
 }

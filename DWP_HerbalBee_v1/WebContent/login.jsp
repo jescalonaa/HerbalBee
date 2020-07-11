@@ -16,15 +16,14 @@
 						<c:if test="${not empty mensaje}">
 						      <div class="alert alert-info">${mensaje.getsMensaje()}</div>
 						 </c:if>
-							<form action="Login" method="POST">
+							<form action="login" method="POST">
 								<div class="form-group">
 									<label for="">Email:</label> 
-									<input type="text" value=""
-										name="email" id="email" required="required"
+									<input type="text" value=""	name="email" id="email" required="required"
 										class="form-control" placeholder="Ingrese Email"> <br> 
-										<label for="">Password:</label>
+									<label for="">Password:</label>
 									<input type="password" value="" name="password" id="password"
-										required="required" class="form-control" placeholder="Ingrese Password"><br>
+										required="required" class="form-control" placeholder="Ingrese Password"><br>										
 										<a href="Registro.jsp" class="btn btn-primary">Registrarse</a>
 									<button class="btn btn-primary float-right" type="submit">Login</button>
 								</div>

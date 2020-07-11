@@ -31,39 +31,36 @@ public class login extends HttpServlet {
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// capturando lal variables que vienen desde el form login.jsp
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+		{
+		
 				String sEmail = request.getParameter("email");
 				String sPass = request.getParameter("password");
 				
-				//instancia del objeto
-				Usuario user = new Usuario();
-				
+				Usuario user = new Usuario();				
 				user.setsEmail(sEmail);
-				user.setsPassword(sPass);
-				
-				
-				//instancia a la clase mgrImpl
+				user.setsPassword(sPass);		
 				UsuarioMgrImpl mgrImpl = new UsuarioMgrImpl();
-				/*
-				//llamado al metodo
-				 user = mgrImpl.exist(user);
-		 		if(user!= null) {
-			        // almacenando al informacion o parametro en sesion
-			        HttpSession session = request.getSession();
-			        session.setAttribute("nombre", user.getsNombre());
-
-			        response.sendRedirect("/MiServlet/Inicio");
-				}else {
-					
-					mensaje.setiEstado(0);
-					mensaje.setsMensaje("Usuario o contraseña incorrecta");
-					request.setAttribute("mensaje", mensaje);
-					RequestDispatcher view;
-					view = request.getRequestDispatcher("/Login.jsp");
-					view.forward(request, response);
-				}
-				*/
-	}
+				user = mgrImpl.exist(user);
+				
+		 		if(user!= null) 
+			 		{
+				        // almacenando al informacion o parametro en sesion
+				        HttpSession session = request.getSession();
+				        session.setAttribute("nombre", user.getsNombre());	
+				        response.sendRedirect("/MiServlet/Inicio");
+					}
+		 		else 
+					{
+						
+						mensaje.setiEstado(0);
+						mensaje.setsMensaje("Datos incorrectos");
+						request.setAttribute("mensaje", mensaje);
+						RequestDispatcher view;
+						view = request.getRequestDispatcher("/login.jsp");
+						view.forward(request, response);
+					}
+				
+		}
 
 }

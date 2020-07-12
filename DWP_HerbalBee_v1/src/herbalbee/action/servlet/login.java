@@ -34,11 +34,11 @@ public class login extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 		{
 		
-				String sEmail = request.getParameter("email");
+				String sUsu = request.getParameter("usu");
 				String sPass = request.getParameter("password");
 				
 				Usuario user = new Usuario();				
-				user.setsEmail(sEmail);
+				user.setsUsu(sUsu);
 				user.setsPassword(sPass);		
 				UsuarioMgrImpl mgrImpl = new UsuarioMgrImpl();
 				user = mgrImpl.exist(user);

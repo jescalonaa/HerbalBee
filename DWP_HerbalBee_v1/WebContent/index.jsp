@@ -38,7 +38,7 @@
 								
                 <div class="form-group text-center">
                     <label>Inicio Sección</label>
-                        <input type="text" value=""  name="email" id="email" required="required"
+                        <input type="text" value=""  name="usu" id="usu" required="required"
                             class="form-control" placeholder="Usuario"> <br> 
 			
 			<input type="password" value="" name="password" id="password"

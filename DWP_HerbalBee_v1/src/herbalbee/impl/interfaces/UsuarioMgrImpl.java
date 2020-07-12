@@ -19,19 +19,19 @@ public class UsuarioMgrImpl implements UsuarioMgr{
 
 	@Override
 	public Usuario exist(Usuario user) 
-	{
-		
-		UsuarioDAOImpl dao = new UsuarioDAOImpl();
-		Usuario usuario = null;
-		
-		if(!user.getsEmail().trim().equals(""))
 		{
-			if(!user.getsPassword().trim().equals(""))
-			{
-				usuario= dao.exist(user);
-			}
-		}		
-		
-		return usuario;
-	}
+			UsuarioDAOImpl dao = new UsuarioDAOImpl();
+			Usuario usuario = null;
+			
+			if(!user.getsEmail().trim().equals(""))
+				{
+					if(!user.getsPassword().trim().equals(""))
+						{
+							usuario= dao.exist(user);
+						}
+				}		
+			
+			return usuario;
+		}	
+	
 }

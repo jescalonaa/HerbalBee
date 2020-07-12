@@ -23,9 +23,21 @@
           <li class="nav-item">
             <a class="nav-link" href="#" >Contacto</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btn btn-warning" href="login.jsp" >Login Personal</a>            
-          </li>
+          
+          <li class="nav-item dropdown btn btn-outline-warning btn-sm">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ingresar a Sistema
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               
+          <a class="dropdown-item" href="#">Login.jsp</a>
+          <a class="dropdown-item" href="#">Regristro.jsp</a>
+          
+        </div>
+      </li>
+          
+          
+     
         </ul>
 
       </div>

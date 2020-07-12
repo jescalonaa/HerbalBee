@@ -5,10 +5,10 @@
 
 <div class="fondo-home"> 
 	
-<h1> Bienvenido al menu de Administracion </h1>
+<h1> Bienvenido al menu de Administració</h1>
 
 
-<div class="row justify-content-center aling-items-center mt-5  justify-content">
+<div class="row justify-content-center aling-items-center mt-5 justify-content">
 <div class="card text-white bg-primary mb-3  " style="max-width: 18rem;">
   <div class="card-header">Registrar Nuevo Cliente</div>
   <div class="card-body">

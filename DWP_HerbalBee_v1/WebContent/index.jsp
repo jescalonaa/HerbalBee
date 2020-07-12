@@ -26,7 +26,7 @@
           
           <li class="nav-item dropdown btn btn-outline-warning btn-sm">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Ingresar a Sistema
+          Sistema
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                
@@ -36,12 +36,12 @@
                 <div class="form-group text-center">
                     <label>Inicio Sección</label>
                         <input type="text" value=""  name="email" id="email" required="required"
-                            class="form-control" placeholder="Email"> <br> 
+                            class="form-control" placeholder="Usuario"> <br> 
 			
 			<input type="password" value="" name="password" id="password"
 			required="required" class="form-control" placeholder="Password"><br>										
 										
-			<button class="btn btn-primary" type="submit">Ingresar</button>
+			<button class="btn btn-warning" type="submit">Ingresar</button>
 		</div>
                 </form>
  	

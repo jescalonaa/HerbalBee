@@ -30,8 +30,22 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                
-          <a class="dropdown-item" href="login.jsp">Login</a>
-          <a class="dropdown-item" href="registro.jsp">Regristro</a>
+          <div class="container">
+                <form action="login" method="POST">
+								
+                <div class="form-group text-center">
+                    <label>Inicio Sección</label>
+                        <input type="text" value=""  name="email" id="email" required="required"
+                            class="form-control" placeholder="Email"> <br> 
+			
+			<input type="password" value="" name="password" id="password"
+			required="required" class="form-control" placeholder="Password"><br>										
+										
+			<button class="btn btn-primary" type="submit">Ingresar</button>
+		</div>
+                </form>
+ 	
+          </div>
           
         </div>
       </li>

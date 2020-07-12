@@ -83,7 +83,7 @@
     <div class="container">
       <h1 class="display-4">Miel de primera calidad</h1>
       <hr id="lineaAmarilla">
-      <p class="lead">A través de análisis y una completa trazabilidad en la producción, se garantiza al consumidor el origen, calidad y propiedades de las mieles malagueñas que comercializamos.</p>
+      <p class="lead">A trav�s de an�lisis y una completa trazabilidad en la producción, se garantiza al consumidor el origen, calidad y propiedades de las mieles malagueñas que comercializamos.</p>
     </div>
   </div>
   <div class="container">

@@ -31,6 +31,9 @@
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                
           <div class="container">
+          		<c:if test="${not empty mensaje}">
+				<div class="alert alert-info">${mensaje.getsMensaje()}</div>
+				</c:if>
                 <form action="login" method="POST">
 								
                 <div class="form-group text-center">

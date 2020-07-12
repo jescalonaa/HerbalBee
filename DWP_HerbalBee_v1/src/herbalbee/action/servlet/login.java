@@ -57,7 +57,7 @@ public class login extends HttpServlet {
 						mensaje.setsMensaje("Datos incorrectos");
 						request.setAttribute("mensaje", mensaje);
 						RequestDispatcher view;
-						view = request.getRequestDispatcher("/login.jsp");
+						view = request.getRequestDispatcher("/index.jsp");
 						view.forward(request, response);
 					}
 				

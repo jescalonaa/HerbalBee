@@ -30,8 +30,8 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                
-          <a class="dropdown-item" href="#">Login.jsp</a>
-          <a class="dropdown-item" href="#">Regristro.jsp</a>
+          <a class="dropdown-item" href="login.jsp">Login</a>
+          <a class="dropdown-item" href="registro.jsp">Regristro</a>
           
         </div>
       </li>

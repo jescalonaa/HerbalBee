@@ -1,9 +1,3 @@
-<%-- 
-    Document   : inicio
-    Created on : 11-jul-2020, 23:53:11
-    Author     : Nito
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -261,8 +255,9 @@ a.article, a.article:hover {
 
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Inicio</a></li>                                
                             </ul>
+                            <button class="btn btn-warning" type="submit">Salir</button>                            
                         </div>
                     </div>
                 </nav>

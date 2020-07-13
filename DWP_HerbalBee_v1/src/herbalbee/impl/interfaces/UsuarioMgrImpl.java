@@ -16,7 +16,7 @@ public class UsuarioMgrImpl implements UsuarioMgr{
 	{
 		UsuarioDAOImpl dao = new UsuarioDAOImpl();
 		Usuario usuario = null;
-		
+				
 		if(!user.getsUsu().trim().equals(""))
 			{
 				if(!user.getsPassword().trim().equals(""))

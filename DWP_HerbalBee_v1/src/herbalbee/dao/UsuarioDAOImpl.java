@@ -21,7 +21,7 @@ public class UsuarioDAOImpl implements UsuarioDAO{
 	@Override
 	public Usuario accesoUsu(Usuario user) 
 	{
-		Usuario usuario = null;
+		Usuario usuario = null;		
 		
 		String query = "SELECT nombreusu, password FROM usuarios WHERE nombreusu ='"
 		+ user.getsUsu() +"' AND password = '"+user.getsPassword()+"' ";

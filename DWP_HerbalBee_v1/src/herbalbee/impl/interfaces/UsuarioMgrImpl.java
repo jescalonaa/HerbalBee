@@ -21,7 +21,7 @@ public class UsuarioMgrImpl implements UsuarioMgr{
 			{
 				if(!user.getsPassword().trim().equals(""))
 					{
-						usuario = dao.exist(user);
+						usuario = dao.accesoUsu(user);
 					}
 			}				
 		return usuario;

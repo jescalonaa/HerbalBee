@@ -212,7 +212,7 @@ a.article, a.article:hover {
             <!-- Sidebar Holder -->
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3>HerbalBee</h3></h3>
+                    <h3>HerbalBee</h3>
                 </div>
 
                 <ul class="list-unstyled components">

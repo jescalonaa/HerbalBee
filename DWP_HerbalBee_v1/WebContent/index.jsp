@@ -127,8 +127,8 @@
         <p class="lead txtnp">Miel de Castaño</p>
         <p>La miel de castaño por su contenido en minerales y 
         vitaminas como puede ser el hierro, vitaminas del grupo B que interviene 
-        reforzando en estados de astenia o apatÃ­a tanto fÃ­sica como mental y vitamina C 
-        que ejercen un refuerzo en el organismo tanto a nivel inmunolÃ³gico. 
+        reforzando en estados de astenia o apatÃ­a tanto física como mental y vitamina C 
+        que ejercen un refuerzo en el organismo tanto a nivel inmunológico. 
         Ayuda a prevenir enfermedades como la trombosis, isquemias y alteraciones del aparato 
         circulatorio como son las varices y la fragilidad capilar.</p>
       </div><div class="col-12 col-md-6 col-lg-4 text-center">

@@ -47,12 +47,11 @@ public class login extends HttpServlet {
 			 		{
 				        // almacenando al informacion o parametro en sesion
 				        HttpSession session = request.getSession();
-				        session.setAttribute("nombre", user.getsNombre());	
+				        session.setAttribute("usuario", user.getsUsu());	
 				        response.sendRedirect("/MiServlet/Inicio");
 					}
 		 		else 
-					{
-						
+					{						
 						mensaje.setiEstado(0);
 						mensaje.setsMensaje("Datos incorrectos");
 						request.setAttribute("mensaje", mensaje);

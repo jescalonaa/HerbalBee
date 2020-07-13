@@ -38,16 +38,13 @@
 								
                 <div class="form-group text-center">
                     <label>Inicio Sección</label>
-                        <input type="text" value=""  name="usu" id="usu" required="required"
-                            class="form-control" placeholder="Usuario"> <br> 
-			
-			<input type="password" value="" name="password" id="password"
-			required="required" class="form-control" placeholder="Password"><br>										
-										
-			<button class="btn btn-warning" type="submit">Ingresar</button>
-		</div>
+                        <input type="text" value=""  name="usu" id="usu" 
+                        required="required" class="form-control" placeholder="Usuario"> <br>			
+						<input type="password" value="" name="password" id="password"
+						required="required" class="form-control" placeholder="Password"><br>						
+						<button class="btn btn-warning" type="submit">Ingresar</button>
+				</div>
                 </form>
- 	
           </div>
           
         </div>

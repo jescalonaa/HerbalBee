@@ -36,36 +36,23 @@ public class UsuarioDAOImpl implements UsuarioDAO{
 
 	@Override
 	public Usuario exist(Usuario user) {
-Usuario usuario = null;
+		Usuario usuario = null;
 		
-		String query = "SELECT id,nombre,rut,email,pass FROM usuario WHERE email ='"
-		+ user.getsEmail() +"' AND pass = '"+user.getsPassword()+"' ";
+		String query = "SELECT nombreusu, password FROM usuarios WHERE nombreusu ='"
+		+ user.getsUsu() +"' AND password = '"+user.getsPassword()+"' ";
 		
-	        try {
-	        	
+	        try 
+	        {	        	
 	            con = cn.getConnection();
 	            stmt=con.prepareStatement(query);
 	            resul=stmt.executeQuery(query);
 	            
-	            while(resul.next())
-	            {
-	            	usuario = new Usuario();
-	            	usuario.setId(resul.getInt("id"));
-	            	usuario.setsNombre(resul.getString("nombre"));
-	            	usuario.setsRut(resul.getString("rut"));
-	            	usuario.setsPassword(resul.getString("pass"));
-	            	usuario.setsEmail(resul.getString("email"));
-	            	
-	            	private int id;
-	            	private String sUsu;
-	            	private String sNombre;
-	            	private String sApellido;
-	            	private String sRun;
-	            	private String sEmail;
-	            	private String sPassword;
-	            	private int sTelefono;
-	     
-	            }
+		        while(resul.next())
+		        {
+		            usuario = new Usuario();
+		            usuario.setsUsu(resul.getString("usuario"));
+		            usuario.setsPassword(resul.getString("pass"));
+		        }
 	        } 
 	        catch (Exception e) {
 	        }

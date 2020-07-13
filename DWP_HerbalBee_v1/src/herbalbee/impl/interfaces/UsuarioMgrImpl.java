@@ -12,10 +12,37 @@ public class UsuarioMgrImpl implements UsuarioMgr{
 	}
 
 	@Override
-	public Mensaje validarUser(Usuario user) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	public Mensaje validarUser(Usuario user) 
+		{
+			UsuarioDAOImpl dao = new UsuarioDAOImpl();
+			
+			if(!user.getsUsu().trim().equals("")) 
+				{
+					if(!user.getsNombre().trim().equals("")) 
+						{
+						if(!user.getsPassword().trim().equals("")) 
+							{							
+								mensaje = dao.add(user);
+							}
+						else 
+							{
+				            	mensaje.setsMensaje("Debe ingresar password.");
+				            	mensaje.setiEstado(0);
+							}
+						}
+					else 
+						{
+			            	mensaje.setsMensaje("Debe ingresar nombre de usuario.");
+			            	mensaje.setiEstado(0);
+						}
+				}
+			else 
+				{
+					mensaje.setsMensaje("Debe ingresar email de usuario.");
+		        	mensaje.setiEstado(0);
+				}	
+			return mensaje;
+		}
 
 	@Override
 	public Usuario exist(Usuario user) 
@@ -23,11 +50,11 @@ public class UsuarioMgrImpl implements UsuarioMgr{
 			UsuarioDAOImpl dao = new UsuarioDAOImpl();
 			Usuario usuario = null;
 			
-			if(!user.getsEmail().trim().equals(""))
+			if(!user.getsUsu().trim().equals(""))
 				{
 					if(!user.getsPassword().trim().equals(""))
 						{
-							usuario= dao.exist(user);
+							usuario = dao.exist(user);
 						}
 				}		
 			

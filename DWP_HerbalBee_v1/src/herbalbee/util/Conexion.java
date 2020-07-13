@@ -11,7 +11,7 @@ public class Conexion {
     {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/herbalbee_db","root","admin");
+            con=DriverManager.getConnection("jdbc:mysql://localhost:3306/herbalbee","jescalonaa","admin");
         } catch (Exception e) {
             System.err.println("Error"+e);
         }

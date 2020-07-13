@@ -3,12 +3,8 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
-import java.util.List;
-
 import herbalbee.util.Conexion;
-
 import herbalbee.objetos.Usuario;
-import herbalbee.objetos.Mensaje;
 
 
 public class UsuarioDAOImpl implements UsuarioDAO{
@@ -23,19 +19,8 @@ public class UsuarioDAOImpl implements UsuarioDAO{
 	}
 
 	@Override
-	public List listar() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Usuario read(int id) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Usuario exist(Usuario user) {
+	public Usuario accesoUsu(Usuario user) 
+	{
 		Usuario usuario = null;
 		
 		String query = "SELECT nombreusu, password FROM usuarios WHERE nombreusu ='"
@@ -58,25 +43,4 @@ public class UsuarioDAOImpl implements UsuarioDAO{
 	        }
 		return usuario;
 	}
-
-	@Override
-	public Mensaje add(Usuario per) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public boolean edit(Usuario per) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public boolean eliminar(int id) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-
-
 }

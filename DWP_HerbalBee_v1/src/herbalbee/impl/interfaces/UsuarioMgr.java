@@ -5,7 +5,6 @@ import herbalbee.objetos.Usuario;
 
 public interface UsuarioMgr {
 	
-	Mensaje validarUser(Usuario user);
-	Usuario exist(Usuario user);
+	Usuario accesoUser(Usuario user);
 
 }

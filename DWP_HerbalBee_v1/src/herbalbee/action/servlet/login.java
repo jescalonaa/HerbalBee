@@ -41,14 +41,14 @@ public class login extends HttpServlet {
 				user.setsUsu(sUsu);
 				user.setsPassword(sPass);		
 				UsuarioMgrImpl mgrImpl = new UsuarioMgrImpl();
-				user = mgrImpl.exist(user);
+				user = mgrImpl.accesoUser(user);
 				
 		 		if(user!= null) 
 			 		{
 				        // almacenando al informacion o parametro en sesion
 				        HttpSession session = request.getSession();
 				        session.setAttribute("usuario", user.getsUsu());	
-				        response.sendRedirect("/MiServlet/Inicio");
+				        response.sendRedirect("/DWP_HerbalBee_v1/Inicio");
 					}
 		 		else 
 					{						

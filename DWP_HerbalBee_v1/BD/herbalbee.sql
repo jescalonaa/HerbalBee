@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 10-07-2020 a las 05:01:16
--- Versión del servidor: 10.1.38-MariaDB
--- Versión de PHP: 5.6.40
+-- Tiempo de generaciÃ³n: 10-07-2020 a las 05:01:16
+-- VersiÃ³n del servidor: 10.1.38-MariaDB
+-- VersiÃ³n de PHP: 5.6.40
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -60,10 +60,10 @@ CREATE TABLE `categorias` (
 CREATE TABLE `clientes` (
   `id_cliente` int(11) NOT NULL,
   `run_cliente` varchar(20) NOT NULL,
-  `nombre` varchar(200) DEFAULT NULL,
-  `apellido` varchar(200) DEFAULT NULL,
+  `nombre` varchar(200) NOT NULL,
+  `apellido` varchar(200) NOT NULL,
   `direccion` varchar(200) DEFAULT NULL,
-  `email` varchar(200) DEFAULT NULL,
+  `email` varchar(200) NOT NULL,
   `telefono` varchar(200) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -88,11 +88,12 @@ CREATE TABLE `imagenes` (
 
 CREATE TABLE `usuarios` (
   `id_usuario` int(11) NOT NULL,
-  `nombre` varchar(50) DEFAULT NULL,
-  `apellido` varchar(50) DEFAULT NULL,
-  `email` varchar(50) DEFAULT NULL,
-  `password` tinytext,
-  `fechaCaptura` date DEFAULT NULL
+  `nombre` varchar(50) NOT NULL,
+  `apellido` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `password` tinytext NOT NULL,
+  `fechaCaptura` date NOT NULL,
+  `telefono` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -111,7 +112,7 @@ CREATE TABLE `ventas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Índices para tablas volcadas
+-- Ã�ndices para tablas volcadas
 --
 
 --

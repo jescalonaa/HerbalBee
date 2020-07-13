@@ -35,10 +35,8 @@ public class UsuarioDAOImpl implements UsuarioDAO{
 	}
 
 	@Override
-	public Usuario exist(Usuario user) 
-	{
-		
-		Usuario usuario = null;
+	public Usuario exist(Usuario user) {
+Usuario usuario = null;
 		
 		String query = "SELECT id,nombre,rut,email,pass FROM usuario WHERE email ='"
 		+ user.getsEmail() +"' AND pass = '"+user.getsPassword()+"' ";
@@ -57,6 +55,15 @@ public class UsuarioDAOImpl implements UsuarioDAO{
 	            	usuario.setsRut(resul.getString("rut"));
 	            	usuario.setsPassword(resul.getString("pass"));
 	            	usuario.setsEmail(resul.getString("email"));
+	            	
+	            	private int id;
+	            	private String sUsu;
+	            	private String sNombre;
+	            	private String sApellido;
+	            	private String sRun;
+	            	private String sEmail;
+	            	private String sPassword;
+	            	private int sTelefono;
 	     
 	            }
 	        } 
@@ -82,5 +89,7 @@ public class UsuarioDAOImpl implements UsuarioDAO{
 		// TODO Auto-generated method stub
 		return false;
 	}
+
+
 
 }

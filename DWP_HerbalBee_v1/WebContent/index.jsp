@@ -64,7 +64,8 @@
         <img src="img/portada2.jpg" class="img-fluid imgPortada" alt=""/>
         <div class="carousel-caption">
           <h1 class="d-none d-sm-block">HerbalBee</h1>
-          <p>Miel 100% Natural , recolectada en bosques y quebradas de nuestra comuna. sin aditivos ni tratamientos que adulteren sus propiedades originales.</p>
+          <p>Miel 100% Natural , recolectada en bosques y quebradas de nuestra comuna. sin aditivos ni tratamientos que adulteren sus propiedades 
+          originales.</p>
         </div>
       </div>              
 
@@ -83,13 +84,14 @@
     <div class="container">
       <h1 class="display-4">Miel de primera calidad</h1>
       <hr id="lineaAmarilla">
-      <p class="lead">A través de análisis y una completa trazabilidad en la producciÃ³n, se garantiza al consumidor el origen, calidad y propiedades de las mieles malagueÃ±as que comercializamos.</p>
+      <p class="lead">A través de análisis y una completa trazabilidad en la producción, se garantiza al consumidor el origen, calidad y propiedades 
+      de las mieles malagueñas que comercializamos.</p>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="col-12 col-md-12 col-lg-12 mb-3"><h5 class="text-center txtnp">Nuestro proceso se realiza de forma natural</h5>
-        <h2 class="text-center txtCmnm">CÃ³mo producimos nuestra miel</h2>
+        <h2 class="text-center txtCmnm">Cómo producimos nuestra miel</h2>
       </div>
 
       <div class="col-12 col-md-6 col-lg-3 text-center">
@@ -98,7 +100,7 @@
 
         <div class="col-12 col-md-6 col-lg-3 text-center">
           <img src="img/how-2.png">
-          <p class="lead txtnp">02. Las abejas recogen el nÃ©ctar y lo llevan a la colmena</p>
+          <p class="lead txtnp">02. Las abejas recogen el néctar y lo llevan a la colmena</p>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 text-center">
@@ -120,18 +122,25 @@
       <div class="col-12 col-md-6 col-lg-4 text-center">
         <img src="img/how-4.png">
         <p class="lead txtnp">Miel de Castaño</p>
-        <p>La miel de castaño por su contenido en minerales y vitaminas como puede ser el hierro, vitaminas del grupo B que interviene reforzando en estados de astenia o apatÃ­a tanto fÃ­sica como mental y vitamina C que ejercen un refuerzo en el organismo tanto a nivel inmunolÃ³gico. Ayuda a prevenir enfermedades como la trombosis, isquemias y alteraciones del aparato circulatorio como son las varices y la fragilidad capilar.</p>
+        <p>La miel de castaño por su contenido en minerales y 
+        vitaminas como puede ser el hierro, vitaminas del grupo B que interviene 
+        reforzando en estados de astenia o apatÃ­a tanto fÃ­sica como mental y vitamina C 
+        que ejercen un refuerzo en el organismo tanto a nivel inmunolÃ³gico. 
+        Ayuda a prevenir enfermedades como la trombosis, isquemias y alteraciones del aparato 
+        circulatorio como son las varices y la fragilidad capilar.</p>
       </div><div class="col-12 col-md-6 col-lg-4 text-center">
         <img src="img/how-4.png">
         <p class="lead txtnp">Miel de Mil Flores</p>
         <p>Procedente de varias floraciones.
           Anti inflamatorias digestiva y cicatrizante.
-          Aumenta la energÃ­a y fuerza fÃ­sica.
-        Recomendada como sustituto de la azÃºcar.</p>
+          Aumenta la energía y fuerza física.
+        Recomendada como sustituto de la azúcar.</p>
       </div><div class="col-12 col-md-6 col-lg-4 text-center">
         <img src="img/how-4.png">
         <p class="lead txtnp">Miel de Eucalipto</p>
-        <p>La miel de eucalipto es sumamente interesante para aliviar cualquier enfermedad de las vÃ­as respiratorias, resulta muy Ãºtil como expectorante natural, ayudando a la hora de aliviar la congestiÃ³n nasal y el exceso de mucosidad. Es ideal en caso de piedras en el riÃ±Ã³n, nefritis y cistitis. De hecho es un excelente desinfectante natural del tracto urinario.</p>
+        <p>La miel de eucalipto es sumamente interesante para aliviar cualquier enfermedad de las vías respiratorias, 
+        resulta muy útil como expectorante natural, ayudando a la hora de aliviar la congestión nasal y el exceso de mucosidad. 
+        Es ideal en caso de piedras en el riñón, nefritis y cistitis. De hecho es un excelente desinfectante natural del tracto urinario.</p>
       </div>
     </div>
   </div>

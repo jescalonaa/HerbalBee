@@ -33,7 +33,8 @@ public class login extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
 		{
-		
+				HttpSession session = request.getSession();
+				session.setAttribute("usuario", "");
 				String sUsu = request.getParameter("usu");
 				String sPass = request.getParameter("password");
 				
@@ -46,7 +47,7 @@ public class login extends HttpServlet {
 		 		if(user!= null) 
 			 		{
 				        // almacenando al informacion o parametro en sesion
-				        HttpSession session = request.getSession();
+				        
 				        session.setAttribute("usuario", user.getsUsu());	
 				        response.sendRedirect("/DWP_HerbalBee_v1/Inicio");
 					}

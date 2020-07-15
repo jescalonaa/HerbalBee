@@ -1,0 +1,21 @@
+# HerbalBee
+- Version 1 de aplicacion HerbalBee
+- Programa utilizado en el desarrollo: eclipse-jee-oxygen-3a-win32-x86_64
+- Libreria Java Runtime Environment 1.8.0_231
+- Server Runtime Environment de eclipse: apache-tomcat-8.5.57
+- Conector base de datos: mysql-connector-java-8.0.21
+- Xampp-windows-x64-7.4.7-0-VC15
+- Servidor Base de datos: 
+    - Servidor: 127.0.0.1 via TCP/IP 
+    - Tipo de servidor: MariaDB
+    - Nombre de la base de datos: herbalbee
+    - Conexión del servidor: No se está utilizando SSL  
+    - Versión del servidor: 10.4.13-MariaDB - mariadb.org binary distribution 
+    - Versión del protocolo: 10 
+    - Usuario: root@localhost 
+    - Conjunto de caracteres del servidor: UTF-8 Unicode (utf8mb4)
+- Servidor Web:
+    - Apache/2.4.43 (Win64) OpenSSL/1.1.1g PHP/7.4.7
+    - Versión del cliente de base de datos: libmysql - mysqlnd 7.4.7
+    - Extensión PHP: mysqli  curl  mbstring
+    - Versión de PHP: 7.4.7

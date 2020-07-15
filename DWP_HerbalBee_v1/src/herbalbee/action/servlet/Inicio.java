@@ -29,7 +29,7 @@ public class Inicio extends HttpServlet {
 			view = request.getRequestDispatcher("/WEB-INF/view/Home.jsp");
 		}
 		else {
-			//reenviar a pantalla de error
+			view = request.getRequestDispatcher("/index.jsp");
 		}
 			
 		view.forward(request, response);

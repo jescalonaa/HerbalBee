@@ -35,8 +35,8 @@ public class UsuarioDAOImpl implements UsuarioDAO{
 		        while(resul.next())
 		        {
 		            usuario = new Usuario();
-		            usuario.setsUsu(resul.getString("usuario"));
-		            usuario.setsPassword(resul.getString("pass"));
+		            usuario.setsUsu(resul.getString("nombreusu"));
+		            usuario.setsPassword(resul.getString("password"));
 		        }
 	        } 
 	        catch (Exception e) {

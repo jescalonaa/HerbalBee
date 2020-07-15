@@ -253,14 +253,26 @@ a.article, a.article:hover {
                             </button>
                         </div>
 
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">Inicio</a></li>                                
-                            </ul>
-                            <button class="btn btn-warning" type="submit">Salir</button>                            
-                        </div>
-                    </div>
-                </nav>
+                        <div class="nav-item dropdown btn btn-outline-warning btn-sm"> 
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          				Opciones
+        				</a>
+        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+               
+          		<div class="container">
+          		<form action="cerrarSesion" method="GET">								
+                <div class="form-group text-center">
+                <button class="btn btn-warning" type="submit" value="salir" name="salir">Salir</button>
+				</div>
+                </form>
+                </div>
+                </div>    
+</div>            			
+            </div>
+             </nav>              
+                        
+                        
+        
                 
                      <table class="table">
   <thead class="thead-dark">

@@ -255,7 +255,7 @@ a.article, a.article:hover {
 
                         <div class="nav-item dropdown btn btn-outline-warning btn-sm"> 
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          				Opciones
+          				Menu
         				</a>
         				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
                

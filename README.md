@@ -4,6 +4,7 @@
 - Libreria Java Runtime Environment 1.8.0_231
 - Server Runtime Environment de eclipse: apache-tomcat-8.5.57
 - Conector base de datos: mysql-connector-java-8.0.21
+- Xampp-windows-x64-7.4.7-0-VC15
 - Servidor Base de datos: 
     - Servidor: 127.0.0.1 via TCP/IP 
     - Tipo de servidor: MariaDB

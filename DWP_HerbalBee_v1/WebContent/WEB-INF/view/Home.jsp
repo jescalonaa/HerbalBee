@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Collapsible sidebar using Bootstrap 3</title>
+        <title>Inicio HerbalBee</title>
 
         <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -233,6 +233,12 @@ a.article, a.article:hover {
                         <a href="#lista">Listar Clientes</a>
                     </li>
                     
+                    <li>
+                        <form action="cerrarSesion" method="GET">		                
+		                		<button class="btn btn-info btn-block" value="salir" name="salir">Salir</button>						
+		                </form>
+                    </li>
+                    
                     
                     
                 </ul>
@@ -249,30 +255,19 @@ a.article, a.article:hover {
                         <div class="navbar-header">
                             <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
                                 <i class="glyphicon glyphicon-align-left"></i>
-                                <span>ocultar</span>
+                                <span>Menu</span>
                             </button>
                         </div>
 
-                        <div class="nav-item dropdown btn btn-outline-warning btn-sm"> 
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          				Menu
-        				</a>
-        				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-               
-          		<div class="container">
-          		<form action="cerrarSesion" method="GET">								
-                <div class="form-group text-center">
-                <button class="btn btn-warning" type="submit" value="salir" name="salir">Salir</button>
-				</div>
-                </form>
-                </div>
-                </div>    
-</div>            			
-            </div>
+                       
+                
+                 </div>  
+            		 
+            
              </nav>              
                         
                         
-        
+   
                 
                      <table class="table">
   <thead class="thead-dark">

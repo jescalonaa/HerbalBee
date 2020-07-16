@@ -18,7 +18,7 @@
 <style>
   
   /*
-    DEMO STYLE
+    DEMO STYLE  
 */
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
@@ -212,26 +212,25 @@ a.article, a.article:hover {
 
                 <ul class="list-unstyled components">
                     <p>Panel control</p>
-                    <li class="active">
-                        <a href="#menu" >Ingreso Clientes</a>
+                    
+                    <li >
+                           <span class="btn btn-primary btn-block" id="IngresoCliente">Ingreso Cliente</span>                   
+                    </li>
+                    <li>
+                        <span class="btn btn-primary btn-block" id="IngresoCliente">Ingreso Productos</span>                        
                         
                     </li>
                     <li>
-                        <a href="#menu">Ingreso Productos</a>
-                        
-                        
+                        <span class="btn btn-primary btn-block" id="IngresoCliente">Ingreso Proveedores</span>
                     </li>
                     <li>
-                        <a href="#">Ingreso Personal</a>
+                       <span class="btn btn-primary btn-block" id="IngresoCliente">Stock</span>
                     </li>
                     <li>
-                        <a href="#">Proveedores</a>
+                        <span class="btn btn-primary btn-block" id="IngresoCliente">Listar Clientes</span>
                     </li>
                     <li>
-                        <a href="#">Stock</a>
-                    </li>
-                    <li>
-                        <a href="#lista">Listar Clientes</a>
+                        <span class="btn btn-primary btn-block" id="IngresoCliente">Reporte clientes</span>
                     </li>
                     
                     <li>
@@ -267,39 +266,20 @@ a.article, a.article:hover {
             
              </nav>              
                         
-                        
+                <div id="loadContent">
+                
+                	<h1 class="text-center">Bienvenidos al sistema de gestión</h1>
+                	<div class="text-center">
+                	
+                		<img alt="" src="img/logo.png" width="300px">
+                		<h1>HerbalBee</h1>
+                		<p>2020</p>
+                	</div>
+                	
+                </div>        
    
                 
-                     <table class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Nombre</th>
-      <th scope="col">Apellido</th>
-      <th scope="col">Email</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
-    </tr>
-  </tbody>
-</table>     
+                    
             </div>
         </div>
 
@@ -317,12 +297,18 @@ a.article, a.article:hover {
         <script type="text/javascript">
             $(document).ready(function () {
                
+            	$('#IngresoCliente').on('click',function(){
+            		$('#loadContent').load('ingreso_clientes.jsp');
+            	});
+            	
 
                 $('#sidebarCollapse').on('click', function () {
                     $('#sidebar, #content').toggleClass('active');
                     $('.collapse.in').toggleClass('in');
                     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
                 });
+                
+                
             });
         </script>
     </body>

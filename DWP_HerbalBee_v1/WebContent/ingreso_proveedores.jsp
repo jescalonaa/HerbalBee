@@ -7,32 +7,42 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="ingresar ruta para guardar" method="post">
-  <h3>Formulario de Ingreso Productos</h3>
+	<form action="ingresar ruta para guardar" method="post">
+  <h3>Formulario de Ingreso Proveedores</h3>
   <hr />
   <div class="row">
-    <div class="form-group col-md-5">
-      <label for="name">Nombre Producto</label>
+    <div class="form-group col-md-7">
+      <label for="name">Nombre / Razon Social</label>
       <input type="text" class="form-control" name="nom_razon">
     </div>
 
     <div class="form-group col-md-3">
-      <label for="campo2">Categoria</label>
+      <label for="campo2">Rut</label>
       <input type="text" class="form-control" name="rut">
     </div>
 
     <div class="form-group col-md-2">
-      <label for="campo3">Precio $</label>
+      <label for="campo3">Fecha Ingreso</label>
       <input type="text" class="form-control" name="fecha_ing">
     </div>
   </div>
   
   <div class="row">
     <div class="form-group col-md-5">
-      <label for="campo1">Stock</label>
+      <label for="campo1">Dirección</label>
       <input type="text" class="form-control" name="direccion">
     </div>
-        
+
+    <div class="form-group col-md-3">
+      <label for="campo2">Email</label>
+      <input type="text" class="form-control" name="email">
+    </div>
+    
+    <div class="form-group col-md-2">
+      <label for="campo3">Telefono</label>
+      <input type="text" class="form-control" name="telefono">
+    </div>
+    
    
   </div>
   

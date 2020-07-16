@@ -221,16 +221,16 @@ a.article, a.article:hover {
                         
                     </li>
                     <li>
-                        <span class="btn btn-primary btn-block" id="IngresoCliente">Ingreso Proveedores</span>
+                        <span class="btn btn-primary btn-block" id="IngresoProveedores">Ingreso Proveedores</span>
                     </li>
                     <li>
-                       <span class="btn btn-primary btn-block" id="IngresoCliente">Stock</span>
+                       <span class="btn btn-primary btn-block" id="Stock">Stock</span>
                     </li>
                     <li>
-                        <span class="btn btn-primary btn-block" id="IngresoCliente">Listar Clientes</span>
+                        <span class="btn btn-primary btn-block" id="ListarClientes">Listar Clientes</span>
                     </li>
                     <li>
-                        <span class="btn btn-primary btn-block" id="IngresoCliente">Reporte clientes</span>
+                        <span class="btn btn-primary btn-block" id="ReporteCliente">Reporte clientes</span>
                     </li>
                     
                     <li>
@@ -300,8 +300,21 @@ a.article, a.article:hover {
             	$('#IngresoCliente').on('click',function(){
             		$('#loadContent').load('ingreso_clientes.jsp');
             	});
+            	
             	$('#IngresoProductos').on('click',function(){
             		$('#loadContent').load('ingreso_productos.jsp');
+            	});
+            	
+            	$('#IngresoProveedores').on('click',function(){
+            		$('#loadContent').load('ingreso_proveedores.jsp');
+            	});
+            	
+            	$('#Stock').on('click',function(){
+            		$('#loadContent').load('stock.jsp');
+            	});
+            	
+            	$('#ListarClientes').on('click',function(){
+            		$('#loadContent').load('listar_clientes.jsp');
             	});
             	
 

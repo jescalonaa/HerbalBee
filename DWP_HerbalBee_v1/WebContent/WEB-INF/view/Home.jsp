@@ -217,7 +217,7 @@ a.article, a.article:hover {
                            <span class="btn btn-primary btn-block" id="IngresoCliente">Ingreso Cliente</span>                   
                     </li>
                     <li>
-                        <span class="btn btn-primary btn-block" id="IngresoCliente">Ingreso Productos</span>                        
+                        <span class="btn btn-primary btn-block" id="IngresoProductos">Ingreso Productos</span>                        
                         
                     </li>
                     <li>
@@ -299,6 +299,9 @@ a.article, a.article:hover {
                
             	$('#IngresoCliente').on('click',function(){
             		$('#loadContent').load('ingreso_clientes.jsp');
+            	});
+            	$('#IngresoProductos').on('click',function(){
+            		$('#loadContent').load('ingreso_productos.jsp');
             	});
             	
 

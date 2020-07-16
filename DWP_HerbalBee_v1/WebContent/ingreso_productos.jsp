@@ -8,7 +8,7 @@
 </head>
 <body>
 <form action="ingresar ruta para guardar" method="post">
-  <h3>Formulario de Ingreso Clientes</h3>
+  <h3>Formulario de Ingreso Productos</h3>
   <hr />
   <div class="row">
     <div class="form-group col-md-7">

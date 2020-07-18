@@ -7,25 +7,32 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="ingresar ruta para guardar" method="post">
+<form action="ingresoCLiente" method="post">
   <h3>Formulario de Ingreso Clientes</h3>
   <hr />
   <div class="row">
-    <div class="form-group col-md-7">
-      <label for="name">Nombre / Razon Social</label>
-      <input type="text" class="form-control" name="nom_razon">
+    <div class="form-group col-md-2">
+      <label for="name">Nombre</label>
+      <input type="text" class="form-control" name="nombre">
     </div>
-
+    
     <div class="form-group col-md-3">
-      <label for="campo2">Rut</label>
-      <input type="text" class="form-control" name="rut">
+      <label for="name">Apellido Paterno</label>
+      <input type="text" class="form-control" name="apellidoPaterno">
     </div>
+    
+    <div class="form-group col-md-3">
+      <label for="name">Apellido Materno</label>
+      <input type="text" class="form-control" name="apellidoMaterno">
+    </div>
+    
 
     <div class="form-group col-md-2">
-      <label for="campo3">Fecha Ingreso</label>
-      <input type="text" class="form-control" name="fecha_ing">
+      <label for="campo2">Run</label>
+      <input type="text" class="form-control" name="run">
     </div>
-  </div>
+
+    
   
   <div class="row">
     <div class="form-group col-md-5">
@@ -43,6 +50,11 @@
       <input type="text" class="form-control" name="telefono">
     </div>
     
+    <div class="form-group col-md-2">
+      <label for="campo3">Fecha Ingreso</label>
+      <input type="text" class="form-control" name="fechaIngreso">
+    </div>
+  </div>    
    
   </div>
   

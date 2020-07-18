@@ -4,7 +4,8 @@ public abstract class Persona {
 	
 	private int id;	
 	private String sNombre;
-	private String sApellido;
+	private String sApellidoPaterno;
+	private String sApellidoMaterno;
 	private String sRun;
 	private String sEmail;	
 	private int sTelefono;
@@ -22,12 +23,20 @@ public abstract class Persona {
 	public void setsNombre(String sNombre) {
 		this.sNombre = sNombre;
 	}
-	public String getsApellido() {
-		return sApellido;
+
+	public String getsApellidoPaterno() {
+		return sApellidoPaterno;
 	}
-	public void setsApellido(String sApellido) {
-		this.sApellido = sApellido;
+	public void setsApellidoPaterno(String sApellidoPaterno) {
+		this.sApellidoPaterno = sApellidoPaterno;
 	}
+	public String getsApellidoMaterno() {
+		return sApellidoMaterno;
+	}
+	public void setsApellidoMaterno(String sApellidoMaterno) {
+		this.sApellidoMaterno = sApellidoMaterno;
+	}
+	
 	public String getsRun() {
 		return sRun;
 	}

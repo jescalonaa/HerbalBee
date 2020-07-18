@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action="ingresoCLiente" method="post">
+<form action="ingresoCliente" method="post">
   <h3>Formulario de Ingreso Clientes</h3>
   <hr />
   <div class="row">
@@ -48,13 +48,7 @@
     <div class="form-group col-md-2">
       <label for="campo3">Telefono</label>
       <input type="text" class="form-control" name="telefono">
-    </div>
-    
-    <div class="form-group col-md-2">
-      <label for="campo3">Fecha Ingreso</label>
-      <input type="text" class="form-control" name="fechaIngreso">
-    </div>
-  </div>    
+    </div>  
    
   </div>
   

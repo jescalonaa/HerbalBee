@@ -220,6 +220,10 @@ a.article, a.article:hover {
                         <span class="btn btn-primary btn-block" id="IngresoProductos">Ingreso Productos</span>                        
                         
                     </li>
+                      <li>
+                        <span class="btn btn-primary btn-block" id="IngresoCategorias">Ingreso Categorias</span>                        
+                        
+                    </li>
                     <li>
                         <span class="btn btn-primary btn-block" id="IngresoProveedores">Ingreso Proveedores</span>
                     </li>
@@ -303,6 +307,10 @@ a.article, a.article:hover {
             	
             	$('#IngresoProductos').on('click',function(){
             		$('#loadContent').load('ingreso_productos.jsp');
+            	});
+            	
+            	$('#IngresoCategorias').on('click',function(){
+            		$('#loadContent').load('ingreso_categorias.jsp');
             	});
             	
             	$('#IngresoProveedores').on('click',function(){

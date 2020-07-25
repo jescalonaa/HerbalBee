@@ -30,11 +30,8 @@
     <div class="form-group col-md-2">
       <label for="campo2">Run</label>
       <input type="text" class="form-control" name="run">
-    </div>
-
+    </div>   
     
-  
-  <div class="row">
     <div class="form-group col-md-5">
       <label for="campo1">Dirección</label>
       <input type="text" class="form-control" name="direccion">
@@ -55,7 +52,7 @@
   <div id="actions" class="row">
     <div class="col-md-12">
       <button type="submit" class="btn btn-primary">Guardar</button>
-      <a href="#" class="btn btn-default">Cancelar</a>
+      
     </div>
   </div>
 </form>
